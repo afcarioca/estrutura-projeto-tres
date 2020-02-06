@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="" href="./index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Projeto III</h1>
+            <form class="formulario"  method="POST">
+                <div class="inputs">
+                    <section class="data">
+                        <h2>Aluno</h2>
+                        <input id="input-nome" class="input-data" type="text" name="nome"/>
+                    </section>
+                    <section class="data">
+                        <h2>Disciplina</h2>
+                        <input id="input-disciplina" class="input-data" type="text" name="disciplina" />
+                    </section>
+                    <section class="data">
+                        <h2>1ª Nota</h2>
+                        <input id="input-nota-um" class="input-data" type="number" name="nota-um" value="0.0" step="0.2" />
+                    </section>
+                    <section class="data">
+                        <h2>2ª Nota</h2>
+                        <input id="input-nota-dois" class="input-data" type="number" name="nota-dois" value="0.0" step="0.2" />
+                    </section>
+                    <section class="data">
+                        <h2>Frequência</h2>
+                        <input id="input-frequencia" class="input-data" type="number" name="frequencia" value="0.0" step="0.2" />
+                    </section>
+                  
+                    <section class="botoes">
+                        
+                            <button class="botao" id="incluir" >Incluir</button>
+                            <button class="botao"id="apagar" >Apagar</button>
+                            <button class="botao"id="apaga-ultima" >Apagar Última</button>
+                        
+                            <button class="botao"id="apaga-tudo" >Apagar Tudo</button>
+                        
+                    </section>
+                   
+                </div>
+            </form>
+            <table id="tabela" class="tabela">
+                <thead id="cabecalho">
+                    <tr id="linha-principal">
+                        <th>Aluno</th>
+                        <th>Disciplina</th>
+                        <th>1ª Nota</th>
+                        <th>2ª Nota</th>
+                        <th>Frequência</th>
+                        <th>Média</th>
+                        <th>Situação</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <script type="text/javascript" src="./index.js">
+       
+        </script>  
+       
+    </body>
+   
+</html>
